@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello world!' 
+                echo 'Hello world! K ${git_key_id}' 
             }
         }
     }
